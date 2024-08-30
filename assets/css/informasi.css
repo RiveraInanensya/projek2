@@ -1,0 +1,176 @@
+/* Reset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: #201E43;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+header .logo img {
+    height: 50px;  
+    margin-right: 30px;  
+}
+
+header h1 {
+    margin: 0;
+    color: #508C9B;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 500px;
+    font-size: 30px;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+nav ul li a {
+    text-decoration: wavy;
+    color: #ebe8e8;
+}
+
+nav ul li a:hover {
+    color: #508C9B;
+}
+
+.social-icons a {
+    color: #ebe8e8;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+.social-icons a:hover {
+    color: #508C9B;
+}
+
+/* Section intro styling */
+
+.intro {
+    position: relative; /* Changed from absolute */
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+
+.intro .text-container {
+    max-width: 80%;
+    text-align: left;
+}
+
+.intro h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+/* Styling form kontak */
+
+.contact-form-container {
+    width: 30%; /* Menetapkan lebar untuk container form */
+    margin-top: 230px; /* Menambahkan margin untuk memberi jarak dari tombol */
+    position: absolute;
+    top: 0; /* Diatur ke 0 karena sekarang ditentukan oleh margin */
+    left: 68%;
+}
+
+.contact-form {
+    background-color: #55a0b3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-form h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #16B3AC;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 8px 16px;
+    background-color: #134B70;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-form button:hover {
+    background-color: #508C9B;
+    
+}
+
+/* Styling tombol Lowongan */
+
+.lowongan-button {
+    position: absolute;
+    top: 95px; /* Adjust this value as needed */
+    right: 13%; /* Positioned relative to the right of the container */
+    background-color: #134B70;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.lowongan-button:hover {
+    background-color: #508C9B;
+
+}

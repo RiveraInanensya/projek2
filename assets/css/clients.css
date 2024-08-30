@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+
+    /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+
+    /* Gaps */
+  --gap-xl: 10px;
+  --gap-7xs: 6px;
+  --gap-smi: 13px;
+
+    /* Paddings */
+  --padding-xl: 20px;
+  --padding-9xl: 28px;
+  --padding-9xs: 4px;
+  --padding-8xs: 5px;
+  --padding-6xl: 25px;
+  --padding-21xl: 40px;
+  --padding-mini: 15px;
+  --padding-14xl: 33px;
+
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: #201E43;
+  padding: 10px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+header .logo img {
+  height: 50px;  
+  margin-right: 30px;  
+}
+
+header h1 {
+  margin: 0;
+  color: #508C9B;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 500px;
+  font-size: 30px;
+}
+
+nav ul li {
+  margin-right: 20px;
+  font-size: 17px;
+}
+
+nav ul li a {
+  text-decoration: wavy;
+  color: #ebe8e8;
+}
+
+nav ul li a:hover {
+  color: #508C9B;
+}
+.social-icons a {
+  color: #ebe8e8;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+.social-icons a:hover {
+  color: #508C9B;
+}
+
+.intro {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.temanggungpng-icon {
+    height: 160px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .temanggungpng-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-6xl) 0 var(--padding-14xl);
+  }
+  .kab-temanggung {
+    position: relative;
+  }
+  .frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 18px;
+    gap: var(--gap-7xs);
+  }
+  .boyolalipng-icon {
+    height: 147px;
+    width: 146px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .boyolalipng-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs) 0 2px;
+  }
+  .kab-boyolali {
+    position: relative;
+  }
+  .frame-container,
+  .frame-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-container {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-7xs);
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 29px var(--padding-6xl) 31px;
+  }
+  .klatenpng-icon {
+    height: 165px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .klaten-image {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-14xl) 0 32px;
+  }
+  .kab-klaten {
+    position: relative;
+  }
+  .desktop-7-inner,
+  .frame-parent,
+  .kab-klaten-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kab-klaten-wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-21xl) 0 37px;
+  }
+  .desktop-7-inner,
+  .frame-parent {
+    flex-direction: column;
+  }
+  .frame-parent {
+    align-self: stretch;
+    gap: var(--gap-smi);
+  }
+  .desktop-7-inner {
+    width: 212px;
+    padding: 106px 0 0;
+    box-sizing: border-box;
+  }
+  .clients {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .clients-wrapper {
+    width: 505px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .banyumaspng-icon {
+    height: 148px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .wonogiri-image {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 21px 0 var(--padding-xl);
+  }
+  .kab-banyumas {
+    position: relative;
+  }
+  .wonogiri-image-parent {
+    width: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-mini);
+    box-sizing: border-box;
+    gap: var(--gap-7xs);
+  }
+  .wonogiripng-icon {
+    height: 147px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .wonogiripng-wrapper {
+    width: 149px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs);
+    box-sizing: border-box;
+  }
+  .kab-wonogiri {
+    position: relative;
+  }
+  .semarang-image,
+  .semarang-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .semarang-label {
+    flex: 1;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .semarang-image {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-8xs) var(--padding-9xl) 16px;
+  }
+  .semarangpng-icon {
+    height: 162px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .madiun-image {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-6xl) 0 var(--padding-mini);
+  }
+  .kab-semarang {
+    position: relative;
+  }
+  .frame-parent1,
+  .kab-semarang-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kab-semarang-wrapper {
+    flex-direction: row;
+    padding: 0 0 0 6px;
+  }
+  .frame-parent1 {
+    width: 186px;
+    flex-direction: column;
+    gap: var(--gap-smi);
+  }
+  .madiunpng-icon {
+    height: 163px;
+    width: 158px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .kab-madiun {
+    position: absolute;
+    margin: 0 !important;
+    bottom: -23px;
+    left: 5px;
+    z-index: 1;
+  }
+  .tegal-label,
+  .tegal-label-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .tegal-label {
+    position: relative;
+  }
+  .tegal-label-wrapper {
+    padding: 0 0 var(--padding-21xl);
+  }
+  .tegalpng-icon {
+    align-self: stretch;
+    flex: 1;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .kota-tegal,
+  .tegalpng-icon {
+    position: relative;
+  }
+  .kebumen-label,
+  .kota-tegal-wrapper,
+  .tegalpng-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .kota-tegal-wrapper {
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-8xs);
+  }
+  .kebumen-label,
+  .tegalpng-parent {
+    align-self: stretch;
+    flex: 1;
+  }
+  .tegalpng-parent {
+    flex-direction: column;
+    gap: 1px;
+  }
+  .kebumen-label {
+    flex-direction: row;
+    padding: 0 var(--padding-xl) var(--padding-6xl) var(--padding-6xl);
+  }
+  .kebumenpng-icon {
+    height: 162px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .sleman-label {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 17px 0 19px;
+  }
+  .kab-kebumen {
+    position: relative;
+  }
+  .banjarnegara-image {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 10px;
+  }
+  .tegal-image {
+    height: 644px;
+    width: 180px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .banyumas-label,
+  .frame-div,
+  .tegal-image {
+    display: flex;
+    align-items: flex-start;
+  }
+  .banyumas-label {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-5xl);
+  }
+  .frame-div {
+    width: 538px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs) 0 0;
+    box-sizing: border-box;
+    gap: 58px;
+    max-width: 100%;
+    font-size: 48px;
+  }
+  .slemanpng-icon {
+    height: 144px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .slemanpng-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 8px 0 var(--padding-9xs);
+  }
+  .kab-sleman {
+    position: relative;
+  }
+  .central-java-image,
+  .central-java-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .central-java-label {
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .central-java-image {
+    width: 194px;
+    flex-direction: row;
+    padding: 0 24px;
+    box-sizing: border-box;
+  }
+  .banjarnegarapng-icon {
+    height: 157px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .banjarnegarapng-wrapper {
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .kab-banjarnegara {
+    position: relative;
+  }
+  .frame-parent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+  }
+  .jawa-tengahpng-icon {
+    height: 165px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .jawa-tengahpng-wrapper {
+    width: 189px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 22px;
+    box-sizing: border-box;
+  }
+  .prov-jawa-tengah {
+    position: relative;
+  }
+  .frame-parent3,
+  .frame-wrapper1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent3 {
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .frame-wrapper1 {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 1px;
+  }
+  .central-java-image-parent,
+  .desktop-7,
+  .desktop-7-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .central-java-image-parent {
+    align-self: stretch;
+    gap: 30px;
+  }
+  .desktop-7,
+  .desktop-7-child {
+    width: 220px;
+    padding: 122px 0 0;
+    box-sizing: border-box;
+  }
+  .desktop-7 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 152px 85px 110px 107px;
+    line-height: normal;
+    letter-spacing: normal;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-darkslategray);
+    font-family: var(--font-lexend-deca);
+  }
+  @media screen and (max-width: 1200px) {
+    .desktop-7 {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .clients {
+      font-size: 38px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .desktop-7-inner {
+      padding-top: 69px;
+      box-sizing: border-box;
+    }
+    .banyumas-label {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .frame-div {
+      gap: 29px;
+    }
+    .desktop-7-child {
+      padding-top: 79px;
+      box-sizing: border-box;
+    }
+    .desktop-7 {
+      padding-left: 53px;
+      padding-right: 42px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .kab-boyolali,
+    .kab-klaten,
+    .kab-temanggung {
+      font-size: var(--font-size-lgi);
+    }
+    .desktop-7-inner {
+      padding-top: 45px;
+      box-sizing: border-box;
+    }
+    .clients {
+      font-size: 29px;
+    }
+    .kab-banjarnegara,
+    .kab-banyumas,
+    .kab-kebumen,
+    .kab-madiun,
+    .kab-semarang,
+    .kab-sleman,
+    .kab-wonogiri,
+    .kota-tegal,
+    .prov-jawa-tengah {
+      font-size: var(--font-size-lgi);
+    }
+    .desktop-7-child {
+      padding-top: 51px;
+      box-sizing: border-box;
+    }
+    .desktop-7 {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
